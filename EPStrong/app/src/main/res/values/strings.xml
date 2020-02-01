@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EPStrong</string>
+    <string name="button">Button</string>
+    <string name="what_is_cyberbullying">What is CyberBullying</string>
+    <string name="what_is_david_s_law">What is David\'s Law</string>
+    <string name="where_david_s_law_applies">Where David\'s Law Applies</string>
 </resources>
