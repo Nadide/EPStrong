@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD:EPStrong/app/src/main/res/values/colors.xml
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-=======
+
+
+
     <color name="colorPrimary">#ff9898</color>
     <color name="colorPrimaryDark">#D92121</color>
     <color name="colorAccent">#800000</color>
     <color name="letters">#ffffff</color>
->>>>>>> 0dcb365988add1cc7ba38c19e6d36dc09f64df0e:App/app/src/main/res/values/colors.xml
+
 </resources>
