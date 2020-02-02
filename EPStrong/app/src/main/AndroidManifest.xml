@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConfirmationPage"></activity>
+        <activity android:name=".AgeRestrictionPage"></activity>
+        <activity android:name=".ConfirmationPage" />
         <activity android:name=".SubInfo5" />
         <activity android:name=".SubInfo4" />
         <activity android:name=".SubInfo3" />

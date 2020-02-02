@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openReportPage(){
-        Intent open = new Intent( this, ReportPage.class);
+        Intent open = new Intent( this, AgeRestrictionPage.class);
         startActivity(open);
     }
 }
