@@ -4,4 +4,7 @@
     <string name="what_is_cyberbullying">What is CyberBullying</string>
     <string name="what_is_david_s_law">What is David\'s Law</string>
     <string name="where_david_s_law_applies">Where David\'s Law Applies</string>
+    <string name="subinfo1">subinfo1</string>
+    <string name="subinfo1_content">Cyberbullying as defined in David’s Law means bullying arising from a pattern of acts or one significant act that is done through the use of any electronic communication device, including a cellular or other type of telephone, a computer, a camera, electronic mail, instant messaging, text messaging, a social media application, an Internet website, or any other Internet-based communication tool.</string>
+
 </resources>

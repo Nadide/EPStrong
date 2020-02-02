@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.report_button);
+        button = (Button) findViewById(R.id.button5);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openReportPage(){
-        Intent open = new Intent(this, ReportPage.class);
+        Intent open = new Intent(this, InformationPage.class);
         startActivity(open);
         //startActivity(new Intent(this, ReportPage.class));
     }
