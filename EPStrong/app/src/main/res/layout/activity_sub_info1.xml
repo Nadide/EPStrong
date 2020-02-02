@@ -12,6 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="288dp"
         android:layout_height="550dp"
+        android:gravity="center"
         android:text="@string/para1"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

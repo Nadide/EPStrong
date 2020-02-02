@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class InformationPage extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class InformationPage extends AppCompatActivity {
     private Button subinfo3;
     private Button subinfo4;
     private Button subinfo5;
+    private TextView returntext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +62,16 @@ public class InformationPage extends AppCompatActivity {
                 openSubinfo5();
             }
         });
+
+        returntext = (TextView) findViewById(R.id.textView6);
+        returntext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                returnMenu();
+            }
+        });
     }
+
 
     public void openSubinfo1(){
         Intent open = new Intent( this, SubInfo1.class);
@@ -84,6 +95,11 @@ public class InformationPage extends AppCompatActivity {
 
     public void openSubinfo5(){
         Intent open = new Intent( this, SubInfo5.class);
+        startActivity(open);
+    }
+
+    public void returnMenu(){
+        Intent open = new Intent( this, MainActivity.class);
         startActivity(open);
     }
 }

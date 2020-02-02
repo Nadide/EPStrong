@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="550dp"
         android:layout_margin="@dimen/text_margin"
+        android:gravity="center"
         android:text="@string/para22"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -30,8 +30,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="308dp"
-        android:layout_height="437dp"
+        android:layout_width="307dp"
+        android:layout_height="339dp"
         android:contentDescription="@string/logo"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"

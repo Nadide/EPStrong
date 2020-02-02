@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
+    private TextView reportText;
     private ImageView reportButton;
 
     @Override
@@ -26,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        reportText = (TextView) findViewById(R.id.textView2);
+        reportText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openReportPage();
+            }
+        });
+
         reportButton = (ImageView) findViewById(R.id.imageView);
         reportButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(open);
         //startActivity(new Intent(this, ReportPage.class));
     }
-
 
     public void openReportPage(){
         Intent open = new Intent( this, ReportPage.class);
