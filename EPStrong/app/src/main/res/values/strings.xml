@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">EPStrong</string>
+    <string name="home_message">Click on PEACE symbol to file a report</string>
     <string name="button">Button</string>
     <string name="what_is_cyberbullying">What is CyberBullying</string>
     <string name="what_is_david_s_law">What is David\'s Law</string>
