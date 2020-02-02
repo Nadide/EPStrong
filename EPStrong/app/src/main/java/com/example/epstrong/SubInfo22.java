@@ -1,23 +1,22 @@
 package com.example.epstrong;
-import android.app.Activity;
-import android.content.Intent;
-import android.view.View;
-import android.content.DialogInterface;
-import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
-public class SubInfo1 extends AppCompatActivity {
+public class SubInfo22 extends AppCompatActivity {
 
     private TextView returntext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sub_info1);
+        setContentView(R.layout.activity_sub_info22);
 
-        returntext = (TextView) findViewById(R.id.returntext);
+        returntext = (TextView) findViewById(R.id.returntext3);
         returntext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

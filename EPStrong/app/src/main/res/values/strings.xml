@@ -1,10 +1,25 @@
 <resources>
     <string name="app_name">EPStrong</string>
     <string name="button">Button</string>
-    <string name="what_is_cyberbullying">What is CyberBullying</string>
-    <string name="what_is_david_s_law">What is David\'s Law</string>
-    <string name="where_david_s_law_applies">Where David\'s Law Applies</string>
+
     <string name="subinfo1">subinfo1</string>
     <string name="subinfo1_content">Cyberbullying as defined in David’s Law means bullying arising from a pattern of acts or one significant act that is done through the use of any electronic communication device, including a cellular or other type of telephone, a computer, a camera, electronic mail, instant messaging, text messaging, a social media application, an Internet website, or any other Internet-based communication tool.</string>
+    <string name="title_activity_subinfo2">subinfo2</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="subinfo2content">Law amends the Education Code provisions regarding bullying to better define and encompass cyberbullying. It encourages school districts to establish a district-wide policy related to bullying prevention and mediation. It provides for anonymous reporting for students, includes cyberbullying off campus and after school hours, and modifies the parental/guardian notification procedure. It provides flexibility in the disciplinary placement or the expulsion of students engaged in certain types of very serious bullying. It authorizes school principals to report certain incidents of bullying to local law enforcement, and provides protection from liability for doing so. It expands the scope of instruction that can satisfy continuing education requirements for classroom teachers and principals to include instruction related to grief-informed and trauma-informed strategies. It requires the Texas Education Agency (TEA) to maintain a website with resources related to student mental health needs</string>
+    <string name="return_info_page">Return Info Page</string>
+
+    <string name="subinfo1content">What Is Cyberbullying?</string>
+    <string name="subinfo22content">Where Does David’s Law Apply?</string>
+    <string name="subinfo3content">How Does David’s Law Protect Texas Students?</string>
+    <string name="subinfo4content">How Does David’s Law Criminally Punish Cyberbullies in Texas?</string>
+
+    <string name="para1">Cyberbullying as defined in David’s Law means bullying arising from a pattern of acts or one significant act that is done through the use of any electronic communication device, including a cellular or other type of telephone, a computer, a camera, electronic mail, instant messaging, text messaging, a social media application, an Internet website, or any other Internet-based communication tool.</string>
+    <string name="para22">David’s Law applies to any cyberbullying that occurs at a school or schoolbus in Texas or that interferes with learning at school. It applies to cyberbullying that occurs in: • School property or to the site of a school-sponsored or school-related activity on or off school property; • Publicly or privately owned school bus or vehicle being used for transportation of students to or from school or a school-sponsored or school-related activity; • Off school property or outside of a school-sponsored or school-related activity if the cyberbullying interferes with a student \'s educational opportunities or substantially disrupts the orderly operation of a classroom, school, or school-sponsored or school-related activity. (This expansion of a school district’s authority to include off-campus incidents is one of the most significant aspects of David’s Law.)</string>
+    <string name="para3">David’s Law allows victims younger than 18 (or a parent) to seek injunctive relief, such as a temporary restraining order and/or an injunction, against the cyberbully. Also, these victims can ask the court to issue an injunction against not only the cyberbully, but also against the cyberbully’s parents, requiring those parents to take action to stop their child from cyberbullying. This law requires the Texas Supreme Court to make available to the general public easy-to-understand forms and instructions (both in English and in Spanish) that can be used to apply for initial injunctive relief in suits involving cyberbullying under David’s Law. Parents can use the forms to apply pro se (on their own) for relief from a court or they can ask a volunteer lawyer through David’s Legacy Foundation or any other lawyer to file the forms with a court on their behalf.</string>
+    <string name="para4">David’s Law changes Section 42.07 of the Texas Penal Code, better known as the Harassment Statute, to include Internet-based communication tools that cyberbullies use against their victims., It is now a Class A misdemeanor (rather than merely a Class B misdemeanor) if: the cyberbully was previously convicted of cyberbullying or harassment; or the offense was committed against a child under 18 years of age with the intent that the child commit suicide or engage in conduct causing serious bodily injury to the child; or the cyberbully previously violated a temporary restraining order or injunction issued under the new civil provisions in David’s Law (see discussion under How Does David’s Law Protect Texas Students?).</string>
+    <string name="hello">HEllo</string>
+
 
 </resources>
