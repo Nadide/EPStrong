@@ -2,10 +2,8 @@ package com.example.epstrong;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
-import android.app.Activity;
 
 import android.view.View;
-import android.content.DialogInterface;
 import android.widget.Button;
 
 import android.os.Bundle;
@@ -16,6 +14,7 @@ public class InformationPage extends AppCompatActivity {
     private Button subinfo2;
     private Button subinfo3;
     private Button subinfo4;
+    private Button subinfo5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +52,14 @@ public class InformationPage extends AppCompatActivity {
                 openSubinfo4();
             }
         });
+
+        subinfo5 = (Button) findViewById(R.id.button6);
+        subinfo5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSubinfo5();
+            }
+        });
     }
 
     public void openSubinfo1(){
@@ -72,6 +79,11 @@ public class InformationPage extends AppCompatActivity {
 
     public void openSubinfo4(){
         Intent open = new Intent( this, SubInfo4.class);
+        startActivity(open);
+    }
+
+    public void openSubinfo5(){
+        Intent open = new Intent( this, SubInfo5.class);
         startActivity(open);
     }
 }

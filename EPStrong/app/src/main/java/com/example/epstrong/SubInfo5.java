@@ -7,16 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class SubInfo4 extends AppCompatActivity {
+public class SubInfo5 extends AppCompatActivity {
+
 
     private TextView returntext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sub_info4);
+        setContentView(R.layout.activity_sub_info5);
 
-        returntext = (TextView) findViewById(R.id.returntext4);
+        returntext = (TextView) findViewById(R.id.returntext5);
         returntext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

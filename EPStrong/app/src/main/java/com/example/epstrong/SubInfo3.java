@@ -16,7 +16,7 @@ public class SubInfo3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub_info3);
 
-        returntext = (TextView) findViewById(R.id.returntext);
+        returntext = (TextView) findViewById(R.id.returntext3);
         returntext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

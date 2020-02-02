@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".SubInfo4"></activity>
+        <activity android:name=".SubInfo5"></activity>
+        <activity android:name=".SubInfo4" />
         <activity android:name=".SubInfo3" />
         <activity android:name=".SubInfo22" />
         <activity
@@ -27,7 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

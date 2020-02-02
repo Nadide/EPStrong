@@ -5,4 +5,7 @@
     <color name="colorAccent">#800000</color>
     <color name="letters">#ffffff</color>
     <color name="homeBack">#FFFC00</color>
+    <color name="colordarkblue">#003764</color>
+    <color name="colorlightblue">#4ac1e0</color>
+    <color name="colorgray">#e6e6e6</color>
 </resources>
