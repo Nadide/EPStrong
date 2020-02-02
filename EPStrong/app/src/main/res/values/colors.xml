@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#D92121</color>
     <color name="colorAccent">#800000</color>
     <color name="letters">#ffffff</color>
+    <color name="homeBack">#FFFC00</color>
 </resources>
