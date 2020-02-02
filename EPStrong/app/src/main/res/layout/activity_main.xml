@@ -22,20 +22,20 @@
     <Button
         android:id="@+id/report_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="259dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="79dp"
-        android:layout_marginLeft="79dp"
-        android:layout_marginTop="232dp"
-        android:layout_marginEnd="83dp"
-        android:layout_marginRight="83dp"
-        android:layout_marginBottom="260dp"
-        android:background="@drawable/badge2"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="235dp"
+        android:background="@drawable/badge3"
 
         />
 
